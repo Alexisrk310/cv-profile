@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    
+}
+
+#root{
+    height: 80vh;
+}
+
+.font-main{
+    font-family: 'Sriracha', cursive;
+}
+.white{
+    color: var(--font-white);
+}

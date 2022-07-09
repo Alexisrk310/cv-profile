@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root{
+    --font-white: #ffffff
+}
+
+
+.code{
+    font-family: 'Sriracha', cursive;
+    color: #003EFF !important;
+}
+.profile{
+    font-size: 30px;
+}
+.button-about{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 62, 255, .9);
+    border-radius: 200px;
+}
+
+.github{
+    background-color: #ffffff ;
+    border-radius: 25px;
+}
+.linkedin, .github{
+   margin-right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
