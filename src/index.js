@@ -8,6 +8,7 @@ import './styles/aboutStyle.css';
 import './styles/experienceStyle.css';
 import './styles/skillsStyle.css';
 import './styles/projectsStyle.css';
+import './styles/contactStyle.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
