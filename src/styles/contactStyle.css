@@ -9,18 +9,17 @@
 .container-contact{
     width: 100vw;
     height: 90vh;
-    /* background-color: brown; */
     flex-direction: row;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
 }
-.board-form{
-    /* background-color: aqua;     */
-    width:700px;
-    padding: 60px;
+.contact{
+    width: 100%;
 }
+
 .contact-me{
     color: #003EFF;
     font-size:50px;

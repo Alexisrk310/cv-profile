@@ -18,15 +18,15 @@ export const Contact = () => {
 						error.name = 'Digita tu nombre';
 					}
 					if (!validateEmail.test(!valores.email)) {
-						error.email = 'Digita tu de forma correcta';
+						error.email = 'Digita tu email de forma correcta';
 					}
 					return error;
 				}}>
 				{({ errors, handleBlur, handleChange, handleSubmit, values }) => {
 					return (
-						<div className="container-contact">
-							<div className="font-main white w-25">
-								<h2 className="bold contact-me">Contact me</h2>
+						<div className=" row container-contact justify-content-around ">
+							<div className="font-main white col  contact">
+								<h2 className="bold contact-me ">Contact me</h2>
 								<p>Fill in the form to start a conversation</p>
 								<p>
 									You can contact me with any questions, suggestions or just to
@@ -35,7 +35,7 @@ export const Contact = () => {
 									startups or freelancing or gaming or anything else.
 								</p>
 							</div>
-							<div className="board-form">
+							<div className="board-form col ">
 								<form onSubmit={handleSubmit} className=" form-contact  ">
 									<div className="mb-3">
 										<label

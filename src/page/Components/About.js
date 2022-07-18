@@ -34,7 +34,7 @@ export const About = () => {
 					</a>
 				</div>
 				<button className="btn  font-main d-block text-center mx-auto mt-4 button-about ">
-					Learn more
+					See more
 				</button>
 			</div>
 		</div>
