@@ -13,7 +13,7 @@ import visualstudiocode from './../../assets/img/visualstudiocode.png';
 export const Skills = () => {
 	return (
 		<div className="container mt-5">
-			<h1 className="white  font-main mb-1">SKILLS</h1>
+			<h1 className="white  font-main mb-1 skills">SKILLS</h1>
 			<hr className="white " />
 			<h3 className="font-main white">Programming</h3>
 			<div className="row d-flex">

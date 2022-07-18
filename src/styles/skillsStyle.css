@@ -7,3 +7,10 @@
    align-self: center;
    color: aliceblue;
 }
+.skills{
+   
+    color: #003EFF;
+    /* font-size:50px; */
+    letter-spacing: 10px;
+    font-weight: 900;
+}
