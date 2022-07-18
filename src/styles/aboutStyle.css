@@ -5,7 +5,13 @@
     --font-white: #ffffff
 }
 
-
+.board-about{
+    height: 50vh;
+    width: 78vw;
+    background-color: rgba(82,83,86,.4);
+    border-radius: 30px;
+    box-shadow: -1px 0px 12px -3px rgba(0,0,0,0.75);
+}
 .code{
     font-family: 'Sriracha', cursive;
     color: #003EFF !important;
@@ -14,10 +20,11 @@
     font-size: 30px;
 }
 .button-about{
-    width: 300px;
+    width: 200px;
     height: 50px;
     background-color: rgb(0, 62, 255, .9);
     border-radius: 200px;
+    font-size: 20px;
 }
 
 .github{

@@ -25,7 +25,7 @@ export const NavBar = () => {
 									isActive ? 'active nav-link' : 'nav-link'
 								}
 								aria-current="page"
-								to="/about">
+								to="/">
 								About
 							</NavLink>
 						</li>
@@ -66,13 +66,12 @@ export const NavBar = () => {
 							</NavLink>
 						</li>
 						<li className="nav-item">
-							<NavLink
-								className={({ isActive }) =>
-									isActive ? 'active nav-link' : 'nav-link'
-								}
-								to="/resume">
+							<a
+								href="https://drive.google.com/file/d/1syzqwubtp-EGGYtJO5O2InGBOQ1ZYIqy/view?usp=sharing"
+								className="nav-link"
+								target="Blank">
 								Resume
-							</NavLink>
+							</a>
 						</li>
 					</ul>
 				</div>

@@ -9,7 +9,7 @@ import { SiUdemy } from 'react-icons/si';
 
 export const Experience = () => {
 	return (
-		<>
+		<div className="container-experience d-flex justify-content-center align-item">
 			<VerticalTimeline>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
@@ -43,6 +43,6 @@ export const Experience = () => {
 					<p>It is an online course platform</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
-		</>
+		</div>
 	);
 };
