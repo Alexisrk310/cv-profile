@@ -1,15 +1,5 @@
 import React from 'react';
 
-// IMG
-// import js from './../../assets/img/js.png';
-// import ts from './../../assets/img/ts.png';
-// import c from './../../assets/img/c++.svg';
-// import react from './../../assets/img/react.png';
-// import bootstrap from './../../assets/img/bootstrap.png';
-// import git from './../../assets/img/git.png';
-// import github from './../../assets/img/github.png';
-// import visualstudiocode from './../../assets/img/visualstudiocode.png';
-
 export const Skills = () => {
 	return (
 		<div className="container mt-5">
@@ -34,7 +24,6 @@ export const Skills = () => {
 					<p className="text-lenguaje font-main">Typescript</p>
 				</div>
 				<div className="d-flex mr-3 col mt-4 mt-sm-0 animate__animated animate__backInLeft">
-					{/* <img src={c} alt="c++" className="icon-lenguaje" /> */}
 					<img
 						src={process.env.PUBLIC_URL + '/assets/img/c++.svg'}
 						alt="c++"
