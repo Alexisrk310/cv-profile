@@ -25,7 +25,7 @@ export const Skills = () => {
 				</div>
 				<div className="d-flex mr-3 col mt-4 mt-sm-0 animate__animated animate__backInLeft">
 					<img
-						src={process.env.PUBLIC_URL + '/assets/img/c++.png'}
+						src={process.env.PUBLIC_URL + '/assets/img/c.png'}
 						alt="c++"
 						className="icon-lenguaje"
 					/>
