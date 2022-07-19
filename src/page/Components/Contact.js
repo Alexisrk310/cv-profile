@@ -17,7 +17,7 @@ export const Contact = () => {
 					if (!valores.name) {
 						error.name = 'Digita tu nombre';
 					}
-					if (!validateEmail.test(!valores.email)) {
+					if (!validateEmail.test(valores.email)) {
 						error.email = 'Digita tu email de forma correcta';
 					}
 					return error;
