@@ -68,7 +68,7 @@ export const NavBar = () => {
 						<li className="nav-item">
 							<a
 								href="/#"
-								 {/*href="https://drive.google.com/file/d/1syzqwubtp-EGGYtJO5O2InGBOQ1ZYIqy/view?usp=sharing" */}
+								// href="https://drive.google.com/file/d/1syzqwubtp-EGGYtJO5O2InGBOQ1ZYIqy/view?usp=sharing"
 								className="nav-link"
 								target="Blank">
 								Resume
