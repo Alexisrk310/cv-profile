@@ -69,7 +69,9 @@ export const NavBar = () => {
 							<a
 								href="https://drive.google.com/file/d/1syzqwubtp-EGGYtJO5O2InGBOQ1ZYIqy/view?usp=sharing"
 								className="nav-link"
-								target="Blank">
+								target="Blank"
+								disabled
+>
 								Resume
 							</a>
 						</li>
