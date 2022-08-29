@@ -67,11 +67,10 @@ export const NavBar = () => {
 						</li>
 						<li className="nav-item">
 							<a
-								href="https://drive.google.com/file/d/1syzqwubtp-EGGYtJO5O2InGBOQ1ZYIqy/view?usp=sharing"
+								href="/#"
+								 {/*href="https://drive.google.com/file/d/1syzqwubtp-EGGYtJO5O2InGBOQ1ZYIqy/view?usp=sharing" */}
 								className="nav-link"
-								target="Blank"
-								disabled
->
+								target="Blank">
 								Resume
 							</a>
 						</li>
